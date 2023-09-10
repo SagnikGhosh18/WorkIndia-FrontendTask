@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+    
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.field span{
+    padding: 8px;
+}
+
+.fields{
+    padding: 8px;
+}
