@@ -18,11 +18,11 @@ body {
     justify-content: space-between;
 }
 
-.column {
+/* .column {
     display: flex;
     flex-direction: column;
     padding: 8px;
-}
+} */
 
 .card {
     background: #fff;
